@@ -1,0 +1,52 @@
+.Loading {
+    margin: 20% auto;
+    width: 71px;
+    height: 71px;
+    border-bottom: 10px solid transparent;
+    border-top: 5px solid white;
+    border-right: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+
+    animation: loading 1s linear infinite;
+}
+
+.Loading::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 56px;
+    height: 56px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.Loading::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    width: 31px;
+    height: 31px;
+    border-left: 10px solid transparent;
+    border-top: 10px solid white;
+    border-right: 5px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

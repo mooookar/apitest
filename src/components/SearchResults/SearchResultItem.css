@@ -1,0 +1,50 @@
+.SearchResultItem {
+    border: 1px solid #a76955;
+    border-radius: 5px;
+    background-color: #a7695533;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.SearchResultItem-nameWrapper {
+    display: flex;
+    border-bottom: 1px solid grey;
+    margin-bottom: 0.3rem;
+}
+
+.SearchResultItem-info {
+    flex-grow: 1;
+}
+
+.SearchResultItem-ownerLogo {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid grey;
+}
+
+.SearchResultItem-name {
+    display: inline-block;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color:#000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.SearchResultItem-description {
+    width: 100%;
+}
+
+.SearchResultItem-stars::before {
+    content: "★";
+    color: yellow;
+    text-shadow: 0 0 1px #000;
+}
+
+.SearchResultItem-lowerInfo {
+    display: flex;
+    justify-content: space-between;
+}

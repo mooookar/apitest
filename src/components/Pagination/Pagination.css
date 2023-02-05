@@ -1,0 +1,33 @@
+.Pagination {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pagination-info {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.Pagination-main {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.pageLink {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.currentPage {
+    display: inline-block;
+    background: #a76955;
+    color: #FFF;
+    padding: 3px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 0 5px;
+}

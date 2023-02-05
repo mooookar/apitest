@@ -1,0 +1,21 @@
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-svg {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+    fill: #00000088;
+    filter: drop-shadow(1px 1px 0px white);
+}
+
+.Logo-name {
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1rem;
+    text-shadow: 1px 1px 1px #FFF;
+}

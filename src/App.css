@@ -4,7 +4,7 @@
 }
 
 .App {
-    height: 100dvh;
+  min-height: 100dvh;
     background: linear-gradient(
             180deg,
             rgba(228, 216, 212, 0) 0%,
@@ -19,14 +19,11 @@
             rgba(228, 216, 212, 1) 100%
         );
     background-attachment: fixed;
-    box-shadow: 0 0 30px  #FFF inset;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
-.App-footer {
-    display: block;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    font-size: 0.8rem;
-    text-align: center;
+.App-header {
+    display: flex;
+    justify-content: center;
 }
